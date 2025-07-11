@@ -1,0 +1,18 @@
+START
+  INPUT student_score
+  IF student_score is between 70 and 100
+    grade = "A"
+  ELSE IF student_score is between 60 and 69
+    grade = "B"
+  ELSE IF student_score is between 50 and 59
+    grade = "C"
+  ELSE IF student_score is between 45 and 49
+    grade = "D"
+  ELSE IF student_score is between 40 and 44
+    grade = "E"
+  ELSE IF student_score is below 40
+    grade = "F"
+  ELSE
+    grade = "Invalid score"
+  OUTPUT grade
+END
